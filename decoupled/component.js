@@ -1,4 +1,4 @@
-module.exports = (function () {
+DC.Component = (function () {
   'use strict';
 
   /**

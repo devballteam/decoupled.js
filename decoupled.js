@@ -1,4 +1,1 @@
-module.exports = {
-  Component  : require('./decoupled/component'),
-  Repository : require('./decoupled/repository')
-};
+(window || this).DC = {};
