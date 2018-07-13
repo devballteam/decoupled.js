@@ -102,6 +102,19 @@ DC.Component.render('profiles/recent', function (compiled) {
 2. Once done, calls rendering engine, e.g. `<RendererObject>.render('profiles/recent', data')` with retrieved data
 3. Passes back `compiled` template to the callback 
 
+## Building project
+
+Apply changes to files:
+* decoupled.js
+* decoupled/component.js
+* decoupled/repository.js
+
+Then run command:
+
+```bash
+$ npm run build
+```
+
 ## Contributing
 
 Feel free to contribute or contact me at contact@maciejsmolinski.com with any questions

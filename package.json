@@ -4,6 +4,7 @@
   "description": "Component-Repository-Renderer trio allows to easily separate business logic in your async application",
   "main": "decoupled.js",
   "scripts": {
+    "build": "cat decoupled.js decoupled/* > decoupled-browser.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Maciej Smolinski",
