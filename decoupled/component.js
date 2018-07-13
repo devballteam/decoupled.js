@@ -89,7 +89,7 @@ DC.Component = (function () {
     var repository = Component._repository.get(component.name);
 
     repository.find(component.type, function (data) {
-      done( Component._renderer.render(component.templatePath, data) );
+      Component._renderer.render(component.templatePath, data, done);
     }, component.args);
   };
 
