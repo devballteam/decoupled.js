@@ -1,4 +1,4 @@
-module.exports = (function () {
+DC.Repository = (function () {
   'use strict';
 
   /**
